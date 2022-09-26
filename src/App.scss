@@ -1,0 +1,35 @@
+// RESET
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+}
+li {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #8d8080;
+  width: 50%;
+
+}
+
+body {
+  background: #252525;
+  color: #ffffff;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
